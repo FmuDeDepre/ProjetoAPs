@@ -17,5 +17,5 @@ public class emprestimo extends Conta {
     void parcelar(int parcelas) {
         valorParcelado = valorFinal / parcelas;
         System.out.format("O valor sera " + valorParcelado);
-    }
+    } // feito por Matheus Siqueira / Gabriel Ribeiro
 }
