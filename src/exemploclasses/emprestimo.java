@@ -1,5 +1,5 @@
 package exemploclasses;
-public class emprestimo extends Conta {
+public class emprestimo extends Conta {  // feito por Matheus Siqueira / Gabriel Ribeiro
     double juros = 0.3;
     String dataPagamento;
     int parcelas;
@@ -17,5 +17,5 @@ public class emprestimo extends Conta {
     void parcelar(int parcelas) {
         valorParcelado = valorFinal / parcelas;
         System.out.format("O valor sera " + valorParcelado);
-    } // feito por Matheus Siqueira / Gabriel Ribeiro
+    }
 }
