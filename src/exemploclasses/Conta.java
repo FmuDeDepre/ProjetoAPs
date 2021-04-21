@@ -13,8 +13,15 @@ public abstract class Conta {
         saldo = saldo + valor;
     }
     
+    void transferir(Conta outraConta, double valor){ // Luis Otavio
+    this.saqueConta(valor);
+    outraConta.depositoConta(valor);
+    System.out.println("Valor Depositado :" + valor);
+    }
+    
     Conta(){
         saldo = 100;
-        dataAbertura = "5/4/2021";
+        dataAbertura = "21/4/2021";
     }
 }
+
