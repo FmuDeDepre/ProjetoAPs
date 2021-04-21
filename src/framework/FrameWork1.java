@@ -40,8 +40,11 @@ public class FrameWork1 extends javax.swing.JPanel {
         jPasswordField1 = new javax.swing.JPasswordField();
         jLabel5 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(255, 51, 51));
         setPreferredSize(new java.awt.Dimension(720, 470));
 
+        jRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
         jRadioButton1.setText("Conta Corrente");
         jRadioButton1.setPreferredSize(new java.awt.Dimension(125, 25));
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -50,6 +53,7 @@ public class FrameWork1 extends javax.swing.JPanel {
             }
         });
 
+        jRadioButton2.setBackground(new java.awt.Color(255, 255, 255));
         jRadioButton2.setText("Conta Poupança");
         jRadioButton2.setPreferredSize(new java.awt.Dimension(125, 25));
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -73,8 +77,15 @@ public class FrameWork1 extends javax.swing.JPanel {
 
         jLabel3.setText("Conta");
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Entrar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Sair");
 
         jLabel4.setText("Senha");
@@ -174,6 +185,10 @@ public class FrameWork1 extends javax.swing.JPanel {
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField1ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
